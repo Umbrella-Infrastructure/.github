@@ -1,13 +1,13 @@
-# ☂️ Umbrella — البنية التحتية
+# ☂️ Umbrella Infrastructure
 
-> **"البنية التحتية لمجتمع رقمي ذاتي الاكتفاء، مبني على الخصوصية والمصدر المفتوح والاستدامة."**
+
 > *"Infrastructure for a self-sustaining digital community, built on privacy, open source, and resilience."*
 
 ---
 
 ## What is Umbrella?
 
-Umbrella is not a single project — it is an **umbrella** for a set of interconnected initiatives by [Arkan Fakoseh (@2kfi)](https://github.com/2kfi), a 17-year-old developer and homelabber from Al-Karak, Jordan.
+Umbrella is not a single project — it is an **umbrella** for a set of interconnected initiatives by [Arkan Fakoseh (@2kfi)](https://github.com/2kfi), a 17-year-old developer from Al-Karak, Jordan.
 
 The vision is simple but ambitious: build technology and physical infrastructure that gives people **real ownership** of their digital and physical lives — locally hosted, privacy-first, resilient even when the internet goes down, and affordable enough to be used by real families in Jordan and beyond.
 
@@ -31,11 +31,11 @@ An Arch Linux-based distribution designed to make Linux accessible to Arabic-spe
 - Easy out-of-the-box experience — no terminal required for everyday use
 - Built on Arch's rolling release model for up-to-date software
 
-→ [github.com/2kfi/Mada-Linux](https://github.com/2kfi/Mada-Linux)
+→ [Mada-Linux Github Page](https://github.com/2kfi/Mada-Linux)
 
 ---
 
-### 🩺 Hakeem AI — حكيم
+### 🩺 Hakeem — حكيم
 
 A local-first AI health system in two editions:
 
@@ -56,11 +56,11 @@ A clinical-grade AI system built for healthcare professionals in Jordan and the 
 
 **Core principle:** Local first. Works in a blackout. Works without the internet. Works when it matters most.
 
-→ [github.com/2kfi/Hakeem](https://github.com/2kfi/Hakeem)
+→ [Hakeem Github Page](https://github.com/2kfi/Hakeem)
 
 ---
 
-### ⭐ Najm — نجم
+### ⭐ Najim — نجم
 
 Your private, local AI assistant for the home — and eventually the main AI brain of the Umbrella ecosystem.
 
@@ -79,12 +79,12 @@ Najm may eventually evolve into the unified AI layer powering both Hakeem Home a
 
 ---
 
-### 🏘️ Umbrella Neighborhood — حي المظلة
+### 🏘️ Umbrella Neighborhood — حي أمبريلا
 
 The most ambitious project of all: a **real, physical neighborhood** in Al-Karak, Jordan.
 
 #### The Land
-200 dunums (about 50 acres) of land, with 60 dunums dedicated to shared infrastructure:
+200 dunums (about 50 acres or 20000 square meters) of land, with 60 dunums dedicated to shared infrastructure:
 - Underground electrical cables
 - Underground water pipes and sewage systems
 - Underground fiber optic internet backbone
@@ -110,13 +110,10 @@ This is infrastructure that simply doesn't exist in most of Al-Karak today — b
 
 ## Utilities & Tools
 
-### 🗺️ maptoposter
-Transform any city into a beautiful minimalist map poster — exportable and printable.
-→ [github.com/2kfi/maptoposter](https://github.com/2kfi/maptoposter)
-
 ### 📦 pacman-local-mirror
 A lightweight local repository manager for Arch Linux. Perfect for air-gapped setups or slow connections.
-→ [github.com/2kfi/pacman-local-mirror](https://github.com/2kfi/pacman-local-mirror)
+
+→ [pacman-local-mirror Github Page](https://github.com/2kfi/pacman-local-mirror)
 
 ---
 
@@ -127,7 +124,7 @@ A lightweight local repository manager for Arch Linux. Perfect for air-gapped se
 | OS Base | Arch Linux |
 | Containerization | Docker / Podman |
 | Home Automation | Home Assistant |
-| AI Runtime | Local LLMs (Ollama / custom) |
+| AI Runtime | Local LLMs (Ollama / Llama.CPP / custom) |
 | Frontend | TypeScript / Web UI |
 | Scripting | Bash / Python |
 | Game Engine | Godot |
@@ -150,7 +147,7 @@ A lightweight local repository manager for Arch Linux. Perfect for air-gapped se
 
 **Arkan Fakoseh** — 17 years old, Al-Karak, Jordan.
 
-Homelabber, overthinker, FOSS advocate. Started using Linux at 14. Runs three Atom mini-PCs, a managed network, and too many side projects for a Tawjihi student.
+Homelabber, overthinker, FOSS advocate. Started using Linux at 14, and too many side projects for a Tawjihi student.
 
 - GitHub: [@2kfi](https://github.com/2kfi)
 - Hugging Face: [huggingface.co/2kfi](https://huggingface.co/2kfi)
@@ -158,123 +155,3 @@ Homelabber, overthinker, FOSS advocate. Started using Linux at 14. Runs three At
 - Instagram: [@2k.fii](https://instagram.com/2k.fii)
 
 ---
-
----
-
-# ☂️ المظلة — البنية التحتية
-
-> *"البنية التحتية لمجتمع رقمي ذاتي الاكتفاء، مبني على الخصوصية والمصدر المفتوح والاستدامة."*
-
----
-
-## ما هي المظلة؟
-
-المظلة ليست مشروعًا واحدًا — بل هي **مظلة** تجمع مجموعة من المبادرات المترابطة التي يطورها [أركان فقوسة (@2kfi)](https://github.com/2kfi)، مطوّر وهاوي لأنظمة المنازل الذكية، عمره 17 عامًا، من الكرك، الأردن.
-
-الرؤية بسيطة لكنها طموحة: بناء تقنية وبنية تحتية حقيقية تمنح الناس **ملكية فعلية** لحياتهم الرقمية والمادية — تعمل محليًا، تحمي الخصوصية، تصمد حتى حين ينقطع الإنترنت، وبتكلفة يستطيع تحملها المواطن العادي في الأردن وما حوله.
-
----
-
-## المشاريع
-
-### 🐧 مدى لينكس
-
-توزيعة لينكس مبنية على Arch Linux، مصممة لجعل لينكس في متناول المستخدمين العرب وكل من يريد الانتقال من ويندوز.
-
-**خمسة نكهات:**
-- `KDE` — سطح مكتب متكامل للمستخدمين المحترفين
-- `GNOME` — تصميم عصري وأنيق
-- `Hyprland` — للمتقشفين ومحبي النوافذ المتداخلة
-- `Cinnamon` — شعور مألوف لمن قادم من ويندوز
-- `Base` — نسخة مجردة لمن يعرف ما يريد
-
-**الأهداف الرئيسية:**
-- دعم اللغة العربية بشكل احترافي (خطوط، RTL، أدوات إدخال)
-- تجربة جاهزة للاستخدام بدون الحاجة للطرفية
-- مبنية على نموذج Arch المتجدد للحصول على أحدث البرمجيات
-
----
-
-### 🩺 حكيم AI
-
-نظام ذكاء اصطناعي صحي يعمل محليًا بالكامل، في إصدارين:
-
-#### حكيم المنزلي
-مساعد صحي ورفيق يومي للأفراد والعائلات.
-- يتابع مؤشرات الصحة والعادات اليومية
-- واجهة ويب للوصول من أي جهاز على الشبكة المحلية
-- يتكامل مع Home Assistant للأتمتة المنزلية الصحية
-- يعمل على أجهزتك تمامًا — لا سحابة، لا اشتراكات
-
-#### حكيم المؤسسي
-نظام ذكاء اصطناعي طبي للمهنيين الصحيين في الأردن والمنطقة.
-- يساعد الأطباء والصيادلة والطلاب في التشخيص واختيار العلاج الأنسب
-- متخصص في تشخيص الأمراض النادرة
-- يتكامل مع **قاعدة بيانات حكيم في وزارة الصحة الأردنية**
-- يأتي بقاعدة بيانات طبية معتمدة
-- مصمم للعمل في المستشفيات والعيادات حتى بدون إنترنت
-
-**المبدأ الأساسي:** يعمل في انقطاع الكهرباء. يعمل بدون إنترنت. يعمل حين يكون الأمر مهمًا.
-
----
-
-### ⭐ نجم
-
-مساعدك الذكي الخاص في المنزل — ومستقبلًا، العقل الذكي الرئيسي لنظام المظلة بأكمله.
-
-تخيل Alexa أو Google Home، لكنك تملكه بالكامل.
-
-- يعمل 100% محليًا على أجهزة بسيطة (الهدف: ~20 دولار كتكلفة إعداد فوق سعر الجهاز)
-- خصوصية بالتصميم — لا بيانات تغادر منزلك أبدًا
-- تطبيقات thin client لجميع أنظمة التشغيل
-- تكامل عميق مع Home Assistant
-- مجاني للأبد بعد الإعداد الأول — لا رسوم شهرية، لا اشتراكات
-
-قد يتطور نجم ليصبح الطبقة الذكية الموحدة لنظام حكيم المنزلي وبنية حي المظلة بأكمله.
-
----
-
-### 🏘️ حي المظلة
-
-أكثر المشاريع طموحًا: **حي سكني حقيقي** في الكرك، الأردن.
-
-#### الأرض
-200 دونم، منها 60 دونمًا مخصصة للبنية التحتية المشتركة:
-- كابلات كهربائية تحت الأرض
-- أنابيب مياه وصرف صحي تحت الأرض
-- شبكة ألياف ضوئية داخلية تحت الأرض
-
-هذه بنية تحتية غير موجودة في معظم أحياء الكرك اليوم — تُبنى بشكل صحيح، لتدوم طويلًا.
-
-#### المجتمع
-- انتقاء السكان — أشخاص مختارون وموثوقون فقط
-- كل منزل له مزرعته الصغيرة لتحقيق الاكتفاء الغذائي
-- خدمات ومرافق مشتركة
-- مجتمع متماسك ومتعمد في بنائه
-
-#### الشبكة
-- إنترنت بسعر يتيح للجميع: الهدف **22 دينار/شهر** لسرعة 500 ميغابت (مقارنة بـ ~30 دينار في السوق)
-- باقة خدمات إضافية بـ 2 دينار فقط
-- شبكة محلية للحي بالكامل مع نظام المظلة الذكي
-- **قابل للفصل التام عن الإنترنت** — الحي يستمر في العمل بشكل طبيعي حتى بدون اتصال خارجي
-
-#### الفلسفة
-> هذا ليس مدينة ذكية. إنه **مجتمع صامد** — مجتمع يستطيع البقاء حتى في الحرب العالمية الثالثة، طالما الكهرباء موجودة.
-
----
-
-## عن المؤسس
-
-**أركان فقوسة** — 17 عامًا، الكرك، الأردن.
-
-هاوي أنظمة منزلية، كثير التفكير، مدافع عن المصدر المفتوح. بدأ استخدام لينكس وعمره 14 عامًا. يدير ثلاثة أجهزة mini-PC، وشبكة منزلية مُدارة، ومشاريع جانبية أكثر مما يتحمله طالب توجيهي.
-
-- GitHub: [@2kfi](https://github.com/2kfi)
-- Hugging Face: [huggingface.co/2kfi](https://huggingface.co/2kfi)
-- البريد الإلكتروني: arkanpers2@gmail.com
-- إنستغرام: [@2k.fii](https://instagram.com/2k.fii)
-
----
-
-*Built with conviction. Designed to last.*
-*بُني بقناعة. صُمِّم ليدوم.*
